@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body></body>
+<header class="fixed-bar">
+    <h1 class="pagetitle">Mike's World</h1>
+</header>
+
+<nav>
+    <ul class="navigation">
+        <li><a href="contacts/index.html"> Home </a></li>
+        <li>
+            <a href="../2.html"> go back</a>
+        </li>
+        <li>Contact</li>
+    </ul>
+</nav>
+<main >
+        <form class="form">
+            <label for="input-name">Name</label>
+            <input type="text" name="name" class="form-input" id="input-name" oninput="checkInput()">
+            <label for="input-mail">Mail</label>
+            <input type="text" name="email" class="form-input" id="input-mail" oninput="checkInput()">
+            <label for="input-message">Your Message</label>
+            <textarea name="message" cols="30" rows="10" class="form-input" id="input-message" oninput="checkInput()"></textarea>
+            <button class="submit-button" disabled>Submit</button>
+        </form>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
